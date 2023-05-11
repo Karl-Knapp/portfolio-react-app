@@ -1,5 +1,6 @@
 import React from "react";
 import ConnectFour from "../assets/projects/ConnectFour.png";
+import { Modal, Button } from "react-bootstrap";
 
 const Portfolio = () => {
   return (
@@ -16,7 +17,7 @@ const Portfolio = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">HTML Connect Four</span>
+              <span className="text-2xl font-bold text-white tracking-wider">Javascript Connect Four</span>
               <div className="pt-8 text-center">
                 <a href="https://i.imgur.com/DIihny2.mp4" target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
