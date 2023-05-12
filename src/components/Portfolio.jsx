@@ -1,6 +1,5 @@
 import React from "react";
 import ConnectFour from "../assets/projects/ConnectFour.png";
-import { Modal, Button } from "react-bootstrap";
 
 const Portfolio = () => {
   return (
